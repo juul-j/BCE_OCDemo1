@@ -11,6 +11,7 @@ import nl.tudelft.trustchain.debug.DebugActivity
 import nl.tudelft.trustchain.eurotoken.EuroTokenMainActivity
 import nl.tudelft.trustchain.valuetransfer.ValueTransferMainActivity
 import nl.tudelft.trustchain.peerai.PeerAIActivity
+import nl.tudelft.trustchain.voter.VoterActivity
 
 enum class AppDefinition(
     @DrawableRes val icon: Int,
@@ -30,6 +31,12 @@ enum class AppDefinition(
         "Debug",
         R.color.dark_gray,
         DebugActivity::class.java
+    ),
+    VOTER(
+        R.drawable.ic_idelft_logo,  //placeholder
+        "Voter",
+        R.color.colorPrimaryDarkValueTransfer,
+        VoterActivity::class.java
     ),
     VALUETRANSFER(
         R.drawable.ic_idelft_logo,

@@ -117,6 +117,7 @@ allprojects {
 
 dependencies {
     implementation project(':debug')
+    implementation project(':voter')
     implementation project(':freedomOfComputing')
     implementation project(':eurotoken')
     implementation project(':valuetransfer')
