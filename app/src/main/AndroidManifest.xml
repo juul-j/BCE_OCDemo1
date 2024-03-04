@@ -77,7 +77,7 @@
             android:parentActivityName=".ui.dashboard.DashboardActivity" />
 
         <activity
-            android:name="nl.tudelft.trustchain.voter:VoterActivity"
+            android:name="nl.tudelft.trustchain.voter.VoterActivity"
             android:parentActivityName=".ui.dashboard.DashboardActivity"/>
 
         <activity
